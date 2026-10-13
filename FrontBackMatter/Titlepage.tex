@@ -1,0 +1,115 @@
+% !TeX root = ../main.tex
+%-------------------------------------------------------------------------------
+%	TITLE PAGE
+%-------------------------------------------------------------------------------
+\pagecolor{Cover}
+\begin{titlepage}
+\begin{center}
+
+{\scshape\LARGE \univname\par} % Их сургуулийн нэр
+{\scshape\Large \facname\par}\vspace{0.5cm} % Их сургуулийн нэр
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[scale=0.2]{Figures/MUST_logo.png}
+\end{figure}
+
+\vspace{1cm}
+\hfill \large{\longname} \\
+
+\vspace{1cm}
+
+{\huge \bfseries \ttitle\par}\vspace{0.4cm} % Тезисийн нэр
+
+\vspace{3cm}
+\textsc{\Large {\thesisname}}\\ % Тезисийн төрөл
+
+\vfill
+
+\large {Улаанбаатар хот} \\
+ 
+\end{center}
+\end{titlepage}
+\pagecolor{white}
+
+%-------------------------------------------------------------------------------
+%	SUBTITLE PAGE
+%-------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+{\scshape\LARGE \univname\par} % Их сургуулийн нэр
+{\scshape\Large \facname\par}\vspace{0.5cm} % Их сургуулийн нэр
+
+\vspace{2cm}
+\hfill \large{\deptname} \\
+
+\vspace{2cm}
+
+{\huge \bfseries \ttitle\par}\vspace{0.4cm} % Тезисийн нэр
+
+\vspace{2cm}
+
+\begin{minipage}[t] {0.9\textwidth}
+\begin{flushleft} 
+\normalsize
+
+Мэргэжлийн индекс: \degreeid \\
+Мэргэжил: \degreename \\[2cm]
+
+\emph{Удирдагч:} {\supname} \\% Удирдагчийн нэр
+\emph{Зөвлөгч:} {\advicename} \\ % Зөвлөгч нарын нэрс
+\emph{Гүйцэтгэгч:} {\shortname} \\ % Зохиогчийн нэр
+
+\end{flushleft}
+\end{minipage}
+
+\vfill
+
+\large {Улаанбаатар хот} \\
+{\large 2026 он 5 сар}\\ % Date
+
+\end{center}
+\end{titlepage}
+
+\pagecolor{white}
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+
+% DDC code
+\node[anchor=north west, align=center, font=\small]
+at ([xshift=3.9cm,yshift=-2.2cm]current page.north west)
+{
+DDC 005.3\\
+A 34
+};
+
+% Author name - vertical
+\node[rotate=90, anchor=center, font=\small]
+at ([xshift=3.95cm,yshift=-7.4cm]current page.north west)
+{
+Цэсэдням АЗЖАРГАЛ
+};
+
+% Main title - vertical
+\node[rotate=90, anchor=center, align=center, font=\bfseries\small]
+at ([xshift=3.95cm,yshift=-16.0cm]current page.north west)
+{
+АХЛАХ СУРГУУЛИЙН СУРАГЧДАД ЗОРИУЛСАН\\
+СУРГУУЛИЙН ЗӨВЛӨГЧИЙН ВЕБ СИСТЕМ ХӨГЖҮҮЛЭХ
+};
+ зөвлөгчийн систем
+% Year
+\node[anchor=north west, font=\small]
+at ([xshift=3.9cm,yshift=-24.7cm]current page.north west)
+{
+2026
+};
+
+\end{tikzpicture}
+\null
+\newpage
+
+
+ 
